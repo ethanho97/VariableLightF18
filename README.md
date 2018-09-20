@@ -11,5 +11,7 @@ This project is meant to train our design skills by working out the entire desig
 * Single dimension < 6 in
 * Costs < $50
 * Replaceable battery
+
 As well as potential extra functionality.
+
 This project will have us work individually to come up with our own design and planning process which will be maintained via this repository.
