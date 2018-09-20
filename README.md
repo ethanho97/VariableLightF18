@@ -23,7 +23,7 @@ As well as potential extra functionality. The criteria we will be judged on for 
 
 This project will have us work individually to come up with our own design and planning process which will be maintained via this repository.
 
-## Usage functionalities
+## Usage notes
 [To be added!!!]
 
 ## Specifications
