@@ -12,6 +12,14 @@ This project is meant to train our design skills by working out the entire desig
 * Costs < $50
 * Replaceable battery
 
-As well as potential extra functionality.
+As well as potential extra functionality. The criteria we will be judged on for our design are:
+* Minimize weight
+* Minimize size
+* Maximize `Brightest` mode
+* Minimize power draw / maximize battery life
+* Survive 3 foot drop with battery installed
 
 This project will have us work individually to come up with our own design and planning process which will be maintained via this repository.
+
+## Pictures
+[To be added!!!]
