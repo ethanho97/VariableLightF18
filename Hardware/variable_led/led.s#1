@@ -8594,7 +8594,7 @@ Note the THM package has the ground pads on both sides of the PCB so that the ma
 <part name="IC1" library="v-reg" library_urn="urn:adsk.eagle:library:409" deviceset="78XXL" device="" package3d_urn="urn:adsk.eagle:package:30361/1"/>
 <part name="C1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:6240337/1" value="10u"/>
 <part name="C2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:6240337/1" value="10u"/>
-<part name="U$1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="CR1220" device="SMT" package3d_urn="urn:adsk.eagle:package:6240665/1"/>
+<part name="U$1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="CR1220" device="SMT" package3d_urn="urn:adsk.eagle:package:6240665/1" value="9V"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -8640,15 +8640,15 @@ Note the THM package has the ground pads on both sides of the PCB so that the ma
 <attribute name="NAME" x="44.196" y="76.835" size="1.778" layer="95"/>
 <attribute name="VALUE" x="44.196" y="72.009" size="1.778" layer="96"/>
 </instance>
-<instance part="U$1" gate="G$1" x="-5.08" y="71.12" rot="R90">
-<attribute name="NAME" x="-8.255" y="69.85" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="0" y="69.85" size="1.778" layer="96" rot="R90"/>
+<instance part="U$1" gate="G$1" x="-10.16" y="71.12" rot="R90">
+<attribute name="NAME" x="-13.335" y="69.85" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-5.08" y="69.85" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND1" gate="1" x="-5.08" y="60.96">
-<attribute name="VALUE" x="-7.62" y="58.42" size="1.778" layer="96"/>
+<instance part="GND1" gate="1" x="-10.16" y="60.96">
+<attribute name="VALUE" x="-12.7" y="58.42" size="1.778" layer="96"/>
 </instance>
-<instance part="P+1" gate="1" x="-5.08" y="81.28">
-<attribute name="VALUE" x="-7.62" y="78.74" size="1.778" layer="96" rot="R90"/>
+<instance part="P+1" gate="1" x="-10.16" y="81.28">
+<attribute name="VALUE" x="-12.7" y="78.74" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND2" gate="1" x="30.48" y="35.56">
 <attribute name="VALUE" x="27.94" y="33.02" size="1.778" layer="96"/>
@@ -8702,11 +8702,11 @@ Note the THM package has the ground pads on both sides of the PCB so that the ma
 <segment>
 <pinref part="U$1" gate="G$1" pin="+"/>
 <pinref part="P+1" gate="1" pin="V+"/>
-<wire x1="-7.62" y1="76.2" x2="-5.08" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="-5.08" y1="76.2" x2="-5.08" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="-12.7" y1="76.2" x2="-10.16" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="-10.16" y1="76.2" x2="-10.16" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="+1"/>
-<wire x1="-2.54" y1="76.2" x2="-5.08" y2="76.2" width="0.1524" layer="91"/>
-<junction x="-5.08" y="76.2"/>
+<wire x1="-7.62" y1="76.2" x2="-10.16" y2="76.2" width="0.1524" layer="91"/>
+<junction x="-10.16" y="76.2"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="A" pin="IN"/>
@@ -8727,7 +8727,7 @@ Note the THM package has the ground pads on both sides of the PCB so that the ma
 <segment>
 <pinref part="U$1" gate="G$1" pin="-"/>
 <pinref part="GND1" gate="1" pin="GND"/>
-<wire x1="-5.08" y1="66.04" x2="-5.08" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="-10.16" y1="66.04" x2="-10.16" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="A" pin="GND"/>
