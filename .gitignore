@@ -1,1 +1,3 @@
 .idea/
+Hardware/variable_led/*.s#*
+Hardware/variable_led/*.b#*
