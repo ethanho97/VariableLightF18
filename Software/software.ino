@@ -1,6 +1,7 @@
 // use preprocessor directives to define constants in the code
 #define FLASH_RATE_HZ 2
-#define BUTTON_IN D1
+#define LED_PIN D4
+#define BUTTON_PIN D1
 #define PWN_LED_OUT D11
 #define PWM_MAX 255
 #define NUM_MODE 5
@@ -8,15 +9,14 @@
 // global variables representing "state" across all functions
 // operating mode: 0 - off, 1 - bright, 2 - mid-bright, 3 - dim, 4 - flash
 int operating_mode = 0;
-// int button_pushed = 0;
 bool button_pushed = TRUE;
 int previous_button_state = 0;
 int PWM_OUT = 0;
 
 // executed one-time at device startup
 void setup() {
-
-   attachInterrupt(BUTTON_IN, button_pushed, FALLING);
+  Serial.begin(9600);
+  attachInterrupt(BUTTON_IN, button_pushed, FALLING);
    // define output (PWM) pin connected to LED
 
 }
@@ -51,7 +51,6 @@ void set_pwn_based_on_operating_mode() {
 }
 
 void button_pushed() {
-    // BUTTON_PUSHED = 1;
     BUTTON_PUSHED = TRUE;
 }
 
