@@ -5472,7 +5472,7 @@ With round pins</description>
 <pinref part="JP1" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="5V" class="0">
 <segment>
 <pinref part="SW1" gate="G$1" pin="P$2"/>
 <wire x1="17.78" y1="33.02" x2="17.78" y2="63.5" width="0.1524" layer="91"/>
