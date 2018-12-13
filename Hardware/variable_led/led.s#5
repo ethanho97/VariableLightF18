@@ -5408,13 +5408,13 @@ With round pins</description>
 <attribute name="NAME" x="36.83" y="59.055" size="1.778" layer="95"/>
 <attribute name="VALUE" x="36.83" y="27.94" size="1.778" layer="96"/>
 </instance>
-<instance part="JP2" gate="A" x="55.88" y="73.66">
-<attribute name="NAME" x="49.53" y="84.455" size="1.778" layer="95"/>
-<attribute name="VALUE" x="49.53" y="63.5" size="1.778" layer="96"/>
+<instance part="JP2" gate="A" x="50.8" y="73.66" rot="MR0">
+<attribute name="NAME" x="57.15" y="84.455" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="57.15" y="63.5" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="JP3" gate="G$1" x="55.88" y="53.34">
-<attribute name="NAME" x="49.53" y="64.135" size="1.778" layer="95"/>
-<attribute name="VALUE" x="49.53" y="38.1" size="1.778" layer="96"/>
+<instance part="JP3" gate="G$1" x="50.8" y="53.34" rot="MR0">
+<attribute name="NAME" x="57.15" y="64.135" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="57.15" y="38.1" size="1.778" layer="96" rot="MR0"/>
 </instance>
 </instances>
 <busses>
@@ -5472,12 +5472,6 @@ With round pins</description>
 <pinref part="JP1" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="5V" class="0">
-<segment>
-<wire x1="58.42" y1="58.42" x2="68.58" y2="58.42" width="0.1524" layer="91"/>
-<label x="68.58" y="58.42" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="N$1" class="0">
 <segment>
 <pinref part="SW1" gate="G$1" pin="P$2"/>
@@ -5485,6 +5479,12 @@ With round pins</description>
 <pinref part="G1" gate="G$1" pin="+"/>
 <wire x1="17.78" y1="63.5" x2="-2.54" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="-2.54" y1="63.5" x2="-2.54" y2="60.96" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="JP3" gate="G$1" pin="4"/>
+<wire x1="53.34" y1="53.34" x2="63.5" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
