@@ -20,8 +20,10 @@ void setup() {
 }
 
 void loop(){
+//  Serial.println("Hello");
   check_button_press();
-  set_pwm();
+  set_pwm();  
+//  shine_led(255);
 }
 
 void set_pwm() {
